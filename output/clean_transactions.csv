@@ -1,0 +1,349 @@
+Date,Year,Month,Weekday,Merchant,Category,TxnType,Amount,Spend,Income,Description
+2025-10-01,2025,2025-10,Wednesday,CorePower Yoga,Fitness,Debit,-24.0,24.0,0.0,COREPOWER YOGA #88
+2025-10-01,2025,2025-10,Wednesday,Rent,Housing,Debit,-2150.0,2150.0,0.0,EFT WITHDRAWAL PROPERTY MG
+2025-10-01,2025,2025-10,Wednesday,Starbucks,Coffee,Debit,-9.26,9.26,0.0,starbucks coffee
+2025-10-01,2025,2025-10,Wednesday,Chevron,Transport,Debit,-37.62,37.62,0.0,CHEVRON #038221
+2025-10-03,2025,2025-10,Friday,Target,Shopping,Debit,-94.19,94.19,0.0,TARGET 00018821
+2025-10-03,2025,2025-10,Friday,Venmo Cashout,Income,Credit,128.85,0.0,128.85,ACH CREDIT VENMO CASHOUT
+2025-10-03,2025,2025-10,Friday,Acme Corp Payroll,Income,Credit,2840.5,0.0,2840.5,PAYROLL DEPOSIT ACME CORP
+2025-10-03,2025,2025-10,Friday,Starbucks,Coffee,Debit,-6.66,6.66,0.0,STARBUCKS #04521 SAN DIEGO CA
+2025-10-04,2025,2025-10,Saturday,Amazon,Shopping,Debit,-122.42,122.42,0.0,AMZN Mktp US*8821B
+2025-10-05,2025,2025-10,Sunday,Amazon,Shopping,Debit,-108.99,108.99,0.0,AMZN MKTPL*A21XK7
+2025-10-05,2025,2025-10,Sunday,Spotify,Subscriptions,Debit,-10.99,10.99,0.0,SPOTIFY USA NEW YORK NY
+2025-10-05,2025,2025-10,Sunday,Netflix,Subscriptions,Debit,-15.49,15.49,0.0,NETFLIX COM 8662
+2025-10-08,2025,2025-10,Wednesday,Trader Joe's,Groceries,Debit,-30.05,30.05,0.0,trader joe's
+2025-10-08,2025,2025-10,Wednesday,24 Hour Fitness,Fitness,Debit,-39.99,39.99,0.0,24 HOUR FITNESS 4421
+2025-10-08,2025,2025-10,Wednesday,Amazon,Shopping,Debit,-74.98,74.98,0.0,Amazon.com
+2025-10-10,2025,2025-10,Friday,Ralphs,Groceries,Debit,-25.48,25.48,0.0,ralphs grocery 0712 sd
+2025-10-12,2025,2025-10,Sunday,SDG&E,Utilities,Debit,-91.25,91.25,0.0,SDGE ONLINE PMT
+2025-10-12,2025,2025-10,Sunday,Starbucks,Coffee,Debit,-4.27,4.27,0.0,STARBUCKS STORE 04521
+2025-10-13,2025,2025-10,Monday,Starbucks,Coffee,Debit,-7.67,7.67,0.0,STARBUCKS #04521 SAN DIEGO CA
+2025-10-14,2025,2025-10,Tuesday,In-N-Out,Dining,Debit,-16.19,16.19,0.0,IN-N-OUT BURGER 221
+2025-10-14,2025,2025-10,Tuesday,Unknown,Uncategorized,Debit,-7.79,7.79,0.0,
+2025-10-15,2025,2025-10,Wednesday,Starbucks,Coffee,Debit,-9.29,9.29,0.0,starbucks #04521 san diego ca
+2025-10-15,2025,2025-10,Wednesday,Starbucks,Coffee,Debit,-7.29,7.29,0.0,STARBUCKS #04521 SAN DIEGO CA
+2025-10-16,2025,2025-10,Thursday,Starbucks,Coffee,Debit,-6.36,6.36,0.0,starbucks coffee
+2025-10-17,2025,2025-10,Friday,Uber Eats,Dining,Debit,-19.1,19.1,0.0,Uber *Eats
+2025-10-17,2025,2025-10,Friday,Acme Corp Payroll,Income,Credit,2840.5,0.0,2840.5,PAYROLL DEPOSIT ACME CORP
+2025-10-18,2025,2025-10,Saturday,Starbucks,Coffee,Debit,-9.0,9.0,0.0,starbucks coffee
+2025-10-18,2025,2025-10,Saturday,Amazon,Shopping,Debit,-76.54,76.54,0.0,Amazon.com
+2025-10-18,2025,2025-10,Saturday,AT&T,Utilities,Debit,-79.65,79.65,0.0,AT&T*BILL PAYMENT
+2025-10-18,2025,2025-10,Saturday,Ralphs,Groceries,Debit,-105.15,105.15,0.0,RALPHS GROCERY 0712 SD
+2025-10-18,2025,2025-10,Saturday,Chevron,Transport,Debit,-37.39,37.39,0.0,CHEVRON #038221
+2025-10-19,2025,2025-10,Sunday,CorePower Yoga,Fitness,Debit,-24.0,24.0,0.0,COREPOWER YOGA #88
+2025-10-19,2025,2025-10,Sunday,Starbucks,Coffee,Debit,-6.95,6.95,0.0,starbucks coffee
+2025-10-19,2025,2025-10,Sunday,Starbucks,Coffee,Debit,-7.07,7.07,0.0,starbucks coffee
+2025-10-20,2025,2025-10,Monday,Uber,Transport,Debit,-26.81,26.81,0.0,UBER TRIP 8821AB
+2025-10-20,2025,2025-10,Monday,Amazon,Shopping,Debit,-88.04,88.04,0.0,AMAZON.COM*RT4421
+2025-10-20,2025,2025-10,Monday,Starbucks,Coffee,Debit,-6.58,6.58,0.0,STARBUCKS #04521 SAN DIEGO CA
+2025-10-21,2025,2025-10,Tuesday,Lyft,Transport,Debit,-20.68,20.68,0.0,Lyft *Ride Sat 11pm
+2025-10-22,2025,2025-10,Wednesday,Starbucks,Coffee,Debit,-8.09,8.09,0.0,STARBUCKS #04521 SAN DIEGO CA
+2025-10-22,2025,2025-10,Wednesday,Uber,Transport,Debit,-24.98,24.98,0.0,UBER TRIP 8821AB
+2025-10-22,2025,2025-10,Wednesday,Apple,Subscriptions,Debit,-4.38,4.38,0.0,apple.com/bill 866-712
+2025-10-22,2025,2025-10,Wednesday,Target,Shopping,Debit,-53.86,53.86,0.0,TARGET T-1882 SAN DIEGO
+2025-10-22,2025,2025-10,Wednesday,CorePower Yoga,Fitness,Debit,-24.0,24.0,0.0,CORE POWER YOGA SD
+2025-10-23,2025,2025-10,Thursday,Amazon,Shopping,Debit,-46.23,46.23,0.0,AMZN Mktp US*8821B
+2025-10-24,2025,2025-10,Friday,Lyft,Transport,Debit,-13.6,13.6,0.0,lyft *ride wed 3pm
+2025-10-24,2025,2025-10,Friday,Target,Shopping,Debit,-61.61,61.61,0.0,TARGET T-1882 SAN DIEGO
+2025-10-24,2025,2025-10,Friday,DoorDash,Dining,Debit,-30.53,30.53,0.0,DOORDASH*PIZZA HUT
+2025-10-24,2025,2025-10,Friday,Starbucks,Coffee,Debit,-9.11,9.11,0.0,STARBUCKS STORE 04521
+2025-10-24,2025,2025-10,Friday,Starbucks,Coffee,Debit,-7.58,7.58,0.0,starbucks coffee
+2025-10-25,2025,2025-10,Saturday,Starbucks,Coffee,Debit,-4.76,4.76,0.0,SBUX *MOBILE ORDER 8821
+2025-10-26,2025,2025-10,Sunday,Unknown,Uncategorized,Debit,-22.23,22.23,0.0,
+2025-10-27,2025,2025-10,Monday,Amazon,Shopping,Debit,-102.07,102.07,0.0,Amazon.com
+2025-10-27,2025,2025-10,Monday,In-N-Out,Dining,Debit,-20.63,20.63,0.0,IN N OUT BURGER #221
+2025-10-28,2025,2025-10,Tuesday,Starbucks,Coffee,Debit,-5.56,5.56,0.0,STARBUCKS STORE 04521
+2025-10-28,2025,2025-10,Tuesday,Amazon,Shopping,Debit,-66.87,66.87,0.0,Amazon.com
+2025-10-28,2025,2025-10,Tuesday,Chipotle,Dining,Debit,-17.3,17.3,0.0,CHIPOTLE 2841
+2025-10-29,2025,2025-10,Wednesday,Starbucks,Coffee,Debit,-9.13,9.13,0.0,starbucks coffee
+2025-10-30,2025,2025-10,Thursday,Venmo Cashout,Income,Credit,129.07,0.0,129.07,ACH CREDIT VENMO CASHOUT
+2025-10-30,2025,2025-10,Thursday,Ralphs,Groceries,Debit,-51.72,51.72,0.0,Ralphs Grocery
+2025-10-30,2025,2025-10,Thursday,Vons,Groceries,Debit,-42.69,42.69,0.0,VONS 3221
+2025-10-30,2025,2025-10,Thursday,Amazon,Shopping,Debit,-112.83,112.83,0.0,AMAZON.COM*RT4421
+2025-10-31,2025,2025-10,Friday,Starbucks,Coffee,Debit,-5.55,5.55,0.0,STARBUCKS #04521 SAN DIEGO CA
+2025-10-31,2025,2025-10,Friday,Starbucks,Coffee,Debit,-9.19,9.19,0.0,STARBUCKS STORE 04521
+2025-10-31,2025,2025-10,Friday,Acme Corp Payroll,Income,Credit,2840.5,0.0,2840.5,PAYROLL DEPOSIT ACME CORP
+2025-11-01,2025,2025-11,Saturday,Rent,Housing,Debit,-2150.0,2150.0,0.0,EFT WITHDRAWAL PROPERTY MG
+2025-11-02,2025,2025-11,Sunday,Target Refund 00018821,Shopping,Credit,20.07,-20.07,0.0,TARGET REFUND 00018821
+2025-11-03,2025,2025-11,Monday,Starbucks,Coffee,Debit,-9.15,9.15,0.0,STARBUCKS #04521 SAN DIEGO CA
+2025-11-05,2025,2025-11,Wednesday,Netflix,Subscriptions,Debit,-15.49,15.49,0.0,netflix.com
+2025-11-05,2025,2025-11,Wednesday,Spotify,Subscriptions,Debit,-10.99,10.99,0.0,spotify usa
+2025-11-05,2025,2025-11,Wednesday,Uber Eats,Dining,Debit,-12.29,12.29,0.0,UBER *EATS 99214
+2025-11-06,2025,2025-11,Thursday,Lyft,Transport,Debit,-10.57,10.57,0.0,LYFT *RIDE WED 3PM
+2025-11-07,2025,2025-11,Friday,Chipotle,Dining,Debit,-16.39,16.39,0.0,chipotle 2841
+2025-11-07,2025,2025-11,Friday,Chipotle,Dining,Debit,-11.68,11.68,0.0,CHIPOTLE 2841
+2025-11-08,2025,2025-11,Saturday,Movie Theater,Entertainment,Debit,-24.99,24.99,0.0,REGAL CINEMAS
+2025-11-08,2025,2025-11,Saturday,24 Hour Fitness,Fitness,Debit,-39.99,39.99,0.0,24 HOUR FITNESS 4421
+2025-11-08,2025,2025-11,Saturday,In-N-Out,Dining,Debit,-10.57,10.57,0.0,IN N OUT BURGER #221
+2025-11-09,2025,2025-11,Sunday,Starbucks,Coffee,Debit,-5.25,5.25,0.0,STARBUCKS STORE 04521
+2025-11-09,2025,2025-11,Sunday,Starbucks,Coffee,Debit,-6.21,6.21,0.0,STARBUCKS STORE 04521
+2025-11-11,2025,2025-11,Tuesday,DoorDash,Dining,Debit,-26.91,26.91,0.0,DD *DoorDash Sushi
+2025-11-11,2025,2025-11,Tuesday,Trader Joe's,Groceries,Debit,-87.17,87.17,0.0,TRADER JOES #221 LA JOLLA
+2025-11-12,2025,2025-11,Wednesday,Uber,Transport,Debit,-30.09,30.09,0.0,UBER TRIP 8821AB
+2025-11-12,2025,2025-11,Wednesday,Starbucks,Coffee,Debit,-6.38,6.38,0.0,SBUX *MOBILE ORDER 8821
+2025-11-12,2025,2025-11,Wednesday,Starbucks,Coffee,Debit,-6.24,6.24,0.0,SBUX *MOBILE ORDER 8821
+2025-11-12,2025,2025-11,Wednesday,SDG&E,Utilities,Debit,-155.28,155.28,0.0,SDGE ONLINE PMT
+2025-11-13,2025,2025-11,Thursday,Chipotle,Dining,Debit,-16.41,16.41,0.0,CHIPOTLE MEXICAN GRILL #2841
+2025-11-14,2025,2025-11,Friday,DoorDash,Dining,Debit,-30.54,30.54,0.0,DD *DoorDash Sushi
+2025-11-14,2025,2025-11,Friday,Acme Corp Payroll,Income,Credit,2840.5,0.0,2840.5,PAYROLL DEPOSIT ACME CORP
+2025-11-14,2025,2025-11,Friday,CorePower Yoga,Fitness,Debit,-24.0,24.0,0.0,core power yoga sd
+2025-11-15,2025,2025-11,Saturday,Trader Joe's,Groceries,Debit,-60.92,60.92,0.0,trader joe's
+2025-11-15,2025,2025-11,Saturday,Shell,Transport,Debit,-61.35,61.35,0.0,SHELL OIL 5744 DEL MAR
+2025-11-15,2025,2025-11,Saturday,CVS Pharmacy,Personal Care,Debit,-16.87,16.87,0.0,cvs pharm 4421
+2025-11-16,2025,2025-11,Sunday,Amazon,Shopping,Debit,-74.08,74.08,0.0,Amazon.com
+2025-11-16,2025,2025-11,Sunday,Starbucks,Coffee,Debit,-5.71,5.71,0.0,STARBUCKS STORE 04521
+2025-11-17,2025,2025-11,Monday,Starbucks,Coffee,Debit,-4.61,4.61,0.0,STARBUCKS #04521 SAN DIEGO CA
+2025-11-17,2025,2025-11,Monday,In-N-Out,Dining,Debit,-21.92,21.92,0.0,IN N OUT BURGER #221
+2025-11-18,2025,2025-11,Tuesday,AT&T,Utilities,Debit,-80.56,80.56,0.0,ATT MOBILITY 800-331-0500
+2025-11-18,2025,2025-11,Tuesday,Ralphs,Groceries,Debit,-39.35,39.35,0.0,ralphs grocery
+2025-11-19,2025,2025-11,Wednesday,CVS Pharmacy,Personal Care,Debit,-16.66,16.66,0.0,CVS PHARMACY 04421
+2025-11-22,2025,2025-11,Saturday,DoorDash,Dining,Debit,-25.29,25.29,0.0,DD DOORDASH BURGERLO
+2025-11-22,2025,2025-11,Saturday,Starbucks,Coffee,Debit,-7.86,7.86,0.0,starbucks coffee
+2025-11-22,2025,2025-11,Saturday,Apple,Subscriptions,Debit,-3.71,3.71,0.0,APL*ITUNES.COM/BILL
+2025-11-22,2025,2025-11,Saturday,Uber Eats,Dining,Debit,-29.89,29.89,0.0,UBER *EATS 99214
+2025-11-23,2025,2025-11,Sunday,CorePower Yoga,Fitness,Debit,-24.0,24.0,0.0,COREPOWER YOGA #88
+2025-11-24,2025,2025-11,Monday,Starbucks,Coffee,Debit,-9.13,9.13,0.0,STARBUCKS STORE 04521
+2025-11-24,2025,2025-11,Monday,Starbucks,Coffee,Debit,-8.79,8.79,0.0,STARBUCKS #04521 SAN DIEGO CA
+2025-11-25,2025,2025-11,Tuesday,Amazon,Shopping,Debit,-71.08,71.08,0.0,Amazon.com
+2025-11-26,2025,2025-11,Wednesday,Trader Joe's,Groceries,Debit,-35.64,35.64,0.0,TJ'S #221
+2025-11-27,2025,2025-11,Thursday,Trader Joe's,Groceries,Debit,-23.97,23.97,0.0,TRADER JOES #221 LA JOLLA
+2025-11-28,2025,2025-11,Friday,Acme Corp Payroll,Income,Credit,2840.5,0.0,2840.5,DIRECT DEPOSIT - ACME CORP PAYROLL
+2025-11-29,2025,2025-11,Saturday,CVS Pharmacy,Personal Care,Debit,-10.33,10.33,0.0,CVS/PHARMACY #04421
+2025-12-01,2025,2025-12,Monday,Starbucks,Coffee,Debit,-4.55,4.55,0.0,STARBUCKS #04521 SAN DIEGO CA
+2025-12-01,2025,2025-12,Monday,Starbucks,Coffee,Debit,-5.64,5.64,0.0,STARBUCKS STORE 04521
+2025-12-01,2025,2025-12,Monday,Rent,Housing,Debit,-2150.0,2150.0,0.0,RENT - APT 4B
+2025-12-02,2025,2025-12,Tuesday,Amazon,Shopping,Debit,-109.19,109.19,0.0,amazon mktplace pmts
+2025-12-02,2025,2025-12,Tuesday,Chevron,Transport,Debit,-43.53,43.53,0.0,CHEVRON 0382214
+2025-12-02,2025,2025-12,Tuesday,Starbucks,Coffee,Debit,-6.19,6.19,0.0,STARBUCKS STORE 04521
+2025-12-03,2025,2025-12,Wednesday,Amazon,Shopping,Debit,-35.61,35.61,0.0,AMZN MKTPL*A21XK7
+2025-12-03,2025,2025-12,Wednesday,Shell,Transport,Debit,-65.49,65.49,0.0,shell oil 57441221
+2025-12-04,2025,2025-12,Thursday,Amazon,Shopping,Debit,-120.46,120.46,0.0,AMZN Mktp US*8821B
+2025-12-05,2025,2025-12,Friday,Netflix,Subscriptions,Debit,-15.49,15.49,0.0,NETFLIX COM 8662
+2025-12-05,2025,2025-12,Friday,Spotify,Subscriptions,Debit,-10.99,10.99,0.0,SPOTIFY USA NEW YORK NY
+2025-12-06,2025,2025-12,Saturday,Starbucks,Coffee,Debit,-5.32,5.32,0.0,starbucks coffee
+2025-12-06,2025,2025-12,Saturday,Target,Shopping,Debit,-68.36,68.36,0.0,Target.com *order
+2025-12-07,2025,2025-12,Sunday,Starbucks,Coffee,Debit,-9.11,9.11,0.0,SBUX *MOBILE ORDER 8821
+2025-12-07,2025,2025-12,Sunday,Starbucks,Coffee,Debit,-4.86,4.86,0.0,STARBUCKS #04521 SAN DIEGO CA
+2025-12-07,2025,2025-12,Sunday,Starbucks,Coffee,Debit,-7.02,7.02,0.0,SBUX *MOBILE ORDER 8821
+2025-12-08,2025,2025-12,Monday,24 Hour Fitness,Fitness,Debit,-39.99,39.99,0.0,24 HOUR FITNESS 4421
+2025-12-08,2025,2025-12,Monday,Trader Joe's,Groceries,Debit,-32.96,32.96,0.0,TRADER JOE'S #221
+2025-12-08,2025,2025-12,Monday,Amazon,Shopping,Debit,-52.02,52.02,0.0,AMAZON.COM*RT4421
+2025-12-09,2025,2025-12,Tuesday,Uber,Transport,Debit,-17.06,17.06,0.0,UBER *TRIP HELP.UBER.COM
+2025-12-11,2025,2025-12,Thursday,Trader Joe's,Groceries,Debit,-45.7,45.7,0.0,TJ'S #221
+2025-12-11,2025,2025-12,Thursday,Uber Eats,Dining,Debit,-27.8,27.8,0.0,UBER *EATS 99214
+2025-12-12,2025,2025-12,Friday,Acme Corp Payroll,Income,Credit,2840.5,0.0,2840.5,DIRECT DEPOSIT - ACME CORP PAYROLL
+2025-12-12,2025,2025-12,Friday,Unknown,Uncategorized,Debit,-95.95,95.95,0.0,
+2025-12-13,2025,2025-12,Saturday,Starbucks,Coffee,Debit,-6.47,6.47,0.0,SBUX *MOBILE ORDER 8821
+2025-12-13,2025,2025-12,Saturday,Chipotle,Dining,Debit,-13.07,13.07,0.0,chipotle online order
+2025-12-13,2025,2025-12,Saturday,DoorDash,Dining,Debit,-29.7,29.7,0.0,DD *DoorDash Sushi
+2025-12-14,2025,2025-12,Sunday,Vons,Groceries,Debit,-45.84,45.84,0.0,VONS STORE 3221 DEL MAR
+2025-12-14,2025,2025-12,Sunday,CorePower Yoga,Fitness,Debit,-24.0,24.0,0.0,COREPOWER YOGA #88
+2025-12-15,2025,2025-12,Monday,Ralphs,Groceries,Debit,-67.76,67.76,0.0,RALPHS #0712
+2025-12-15,2025,2025-12,Monday,Starbucks,Coffee,Debit,-6.53,6.53,0.0,SBUX *MOBILE ORDER 8821
+2025-12-16,2025,2025-12,Tuesday,Ralphs,Groceries,Debit,-63.28,63.28,0.0,Ralphs Grocery
+2025-12-16,2025,2025-12,Tuesday,CorePower Yoga,Fitness,Debit,-24.0,24.0,0.0,COREPOWER YOGA #88
+2025-12-18,2025,2025-12,Thursday,CorePower Yoga,Fitness,Debit,-24.0,24.0,0.0,CORE POWER YOGA SD
+2025-12-18,2025,2025-12,Thursday,AT&T,Utilities,Debit,-91.59,91.59,0.0,ATT MOBILITY 800-331-0500
+2025-12-18,2025,2025-12,Thursday,Lyft,Transport,Debit,-20.62,20.62,0.0,Lyft *Ride Sat 11pm
+2025-12-19,2025,2025-12,Friday,Starbucks,Coffee,Debit,-6.34,6.34,0.0,starbucks coffee
+2025-12-19,2025,2025-12,Friday,Amazon,Shopping,Debit,-85.86,85.86,0.0,AMZN Mktp US*8821B
+2025-12-19,2025,2025-12,Friday,Amazon,Shopping,Debit,-23.42,23.42,0.0,AMZN MKTPL*A21XK7
+2025-12-20,2025,2025-12,Saturday,Starbucks,Coffee,Debit,-4.55,4.55,0.0,SBUX *MOBILE ORDER 8821
+2025-12-20,2025,2025-12,Saturday,DoorDash,Dining,Debit,-24.91,24.91,0.0,DD DOORDASH BURGERLO
+2025-12-20,2025,2025-12,Saturday,Starbucks,Coffee,Debit,-9.13,9.13,0.0,STARBUCKS #04521 SAN DIEGO CA
+2025-12-20,2025,2025-12,Saturday,CVS Pharmacy,Personal Care,Debit,-10.3,10.3,0.0,cvs pharm 4421
+2025-12-22,2025,2025-12,Monday,Apple,Subscriptions,Debit,-7.03,7.03,0.0,APL*ITUNES.COM/BILL
+2025-12-22,2025,2025-12,Monday,Lyft,Transport,Debit,-20.79,20.79,0.0,LYFT *RIDE WED 3PM
+2025-12-23,2025,2025-12,Tuesday,Uber Eats,Dining,Debit,-17.11,17.11,0.0,UBER *EATS 99214
+2025-12-25,2025,2025-12,Thursday,DoorDash,Dining,Debit,-26.68,26.68,0.0,DD DOORDASH BURGERLO
+2025-12-25,2025,2025-12,Thursday,Chipotle,Dining,Debit,-12.2,12.2,0.0,CHIPOTLE 2841
+2025-12-26,2025,2025-12,Friday,Starbucks,Coffee,Debit,-4.36,4.36,0.0,STARBUCKS STORE 04521
+2025-12-26,2025,2025-12,Friday,Acme Corp Payroll,Income,Credit,2840.5,0.0,2840.5,PAYROLL DEPOSIT ACME CORP
+2025-12-27,2025,2025-12,Saturday,Chevron,Transport,Debit,-59.76,59.76,0.0,CHEVRON #038221
+2025-12-28,2025,2025-12,Sunday,Movie Theater,Entertainment,Debit,-22.31,22.31,0.0,REGAL CINEMAS
+2025-12-28,2025,2025-12,Sunday,Ralphs,Groceries,Debit,-84.27,84.27,0.0,RALPHS GROCERY 0712 SD
+2025-12-29,2025,2025-12,Monday,Amazon,Shopping,Debit,-38.93,38.93,0.0,AMZN MKTPL*A21XK7
+2025-12-29,2025,2025-12,Monday,Trader Joe's,Groceries,Debit,-42.65,42.65,0.0,TRADER JOES #221 LA JOLLA
+2025-12-30,2025,2025-12,Tuesday,Starbucks,Coffee,Debit,-6.47,6.47,0.0,SBUX *MOBILE ORDER 8821
+2025-12-30,2025,2025-12,Tuesday,Uber Eats,Dining,Debit,-16.1,16.1,0.0,UBER *EATS 99214
+2025-12-31,2025,2025-12,Wednesday,Trader Joe's,Groceries,Debit,-36.34,36.34,0.0,TRADER JOES #221 LA JOLLA
+2026-01-01,2026,2026-01,Thursday,DoorDash,Dining,Debit,-34.46,34.46,0.0,DOORDASH*PIZZA HUT
+2026-01-01,2026,2026-01,Thursday,Rent,Housing,Debit,-2150.0,2150.0,0.0,EFT WITHDRAWAL PROPERTY MG
+2026-01-02,2026,2026-01,Friday,Trader Joe's,Groceries,Debit,-82.05,82.05,0.0,TRADER JOE'S #221
+2026-01-03,2026,2026-01,Saturday,Amazon,Shopping,Debit,-31.39,31.39,0.0,AMAZON MKTPLACE PMTS
+2026-01-03,2026,2026-01,Saturday,Trader Joe's,Groceries,Debit,-61.05,61.05,0.0,TRADER JOES #221 LA JOLLA
+2026-01-05,2026,2026-01,Monday,Spotify,Subscriptions,Debit,-10.99,10.99,0.0,SPOTIFY USA NEW YORK NY
+2026-01-05,2026,2026-01,Monday,Netflix,Subscriptions,Debit,-15.49,15.49,0.0,Netflix Subscription
+2026-01-06,2026,2026-01,Tuesday,Amazon.Com*Refund Rt4421,Shopping,Credit,28.08,-28.08,0.0,AMAZON.COM*REFUND RT4421
+2026-01-06,2026,2026-01,Tuesday,Trader Joe's,Groceries,Debit,-80.27,80.27,0.0,TJ'S #221
+2026-01-06,2026,2026-01,Tuesday,Uber Eats,Dining,Debit,-16.85,16.85,0.0,UBER *EATS 99214
+2026-01-06,2026,2026-01,Tuesday,Venmo Cashout,Income,Credit,115.34,0.0,115.34,ACH CREDIT VENMO CASHOUT
+2026-01-07,2026,2026-01,Wednesday,Chipotle,Dining,Debit,-15.18,15.18,0.0,CHIPOTLE 2841
+2026-01-07,2026,2026-01,Wednesday,Chevron,Transport,Debit,-34.48,34.48,0.0,CHEVRON 0382214
+2026-01-08,2026,2026-01,Thursday,24 Hour Fitness,Fitness,Debit,-39.99,39.99,0.0,24 HOUR FITNESS 4421
+2026-01-09,2026,2026-01,Friday,Acme Corp Payroll,Income,Credit,2840.5,0.0,2840.5,DIRECT DEPOSIT - ACME CORP PAYROLL
+2026-01-10,2026,2026-01,Saturday,Amazon,Shopping,Debit,-134.69,134.69,0.0,AMAZON.COM*RT4421
+2026-01-11,2026,2026-01,Sunday,In-N-Out,Dining,Debit,-15.34,15.34,0.0,IN-N-OUT BURGER 221
+2026-01-11,2026,2026-01,Sunday,Trader Joe's,Groceries,Debit,-44.18,44.18,0.0,TRADER JOE'S #221
+2026-01-12,2026,2026-01,Monday,SDG&E,Utilities,Debit,-149.3,149.3,0.0,san diego gas & elec
+2026-01-12,2026,2026-01,Monday,DoorDash,Dining,Debit,-40.71,40.71,0.0,DD DOORDASH BURGERLO
+2026-01-13,2026,2026-01,Tuesday,Ralphs,Groceries,Debit,-46.12,46.12,0.0,Ralphs Grocery
+2026-01-14,2026,2026-01,Wednesday,Trader Joe's,Groceries,Debit,-75.63,75.63,0.0,TRADER JOES #221 LA JOLLA
+2026-01-14,2026,2026-01,Wednesday,Trader Joe's,Groceries,Debit,-24.04,24.04,0.0,trader joe's
+2026-01-14,2026,2026-01,Wednesday,DoorDash,Dining,Debit,-19.8,19.8,0.0,DD *DoorDash Sushi
+2026-01-15,2026,2026-01,Thursday,Vons,Groceries,Debit,-67.51,67.51,0.0,VONS STORE 3221 DEL MAR
+2026-01-16,2026,2026-01,Friday,Ralphs,Groceries,Debit,-78.24,78.24,0.0,RALPHS GROCERY 0712 SD
+2026-01-16,2026,2026-01,Friday,Uber,Transport,Debit,-22.29,22.29,0.0,UBER TRIP 8821AB
+2026-01-16,2026,2026-01,Friday,Starbucks,Coffee,Debit,-7.7,7.7,0.0,starbucks coffee
+2026-01-17,2026,2026-01,Saturday,Lyft,Transport,Debit,-11.4,11.4,0.0,LYFT *RIDE WED 3PM
+2026-01-18,2026,2026-01,Sunday,Shell,Transport,Debit,-62.32,62.32,0.0,SHELL OIL 5744 DEL MAR
+2026-01-18,2026,2026-01,Sunday,AT&T,Utilities,Debit,-78.25,78.25,0.0,att mobility 800-331-0500
+2026-01-19,2026,2026-01,Monday,Trader Joe's,Groceries,Debit,-30.86,30.86,0.0,trader joe's
+2026-01-20,2026,2026-01,Tuesday,Ralphs,Groceries,Debit,-72.67,72.67,0.0,Ralphs Grocery
+2026-01-20,2026,2026-01,Tuesday,Ralphs,Groceries,Debit,-15.36,15.36,0.0,Ralphs Grocery
+2026-01-21,2026,2026-01,Wednesday,Unknown,Uncategorized,Debit,-5.19,5.19,0.0,
+2026-01-21,2026,2026-01,Wednesday,Starbucks,Coffee,Debit,-8.97,8.97,0.0,SBUX *MOBILE ORDER 8821
+2026-01-21,2026,2026-01,Wednesday,Lyft,Transport,Debit,-11.59,11.59,0.0,Lyft *Ride Sat 11pm
+2026-01-21,2026,2026-01,Wednesday,Starbucks,Coffee,Debit,-8.63,8.63,0.0,starbucks coffee
+2026-01-22,2026,2026-01,Thursday,DoorDash,Dining,Debit,-42.03,42.03,0.0,DD DOORDASH BURGERLO
+2026-01-22,2026,2026-01,Thursday,Apple,Subscriptions,Debit,-4.86,4.86,0.0,Apple.com/Bill 866-712
+2026-01-22,2026,2026-01,Thursday,Trader Joe's,Groceries,Debit,-59.0,59.0,0.0,TJ'S #221
+2026-01-22,2026,2026-01,Thursday,Chipotle,Dining,Debit,-14.79,14.79,0.0,CHIPOTLE 2841
+2026-01-23,2026,2026-01,Friday,Acme Corp Payroll,Income,Credit,2840.5,0.0,2840.5,DIRECT DEPOSIT - ACME CORP PAYROLL
+2026-01-23,2026,2026-01,Friday,Shell,Transport,Debit,-64.75,64.75,0.0,SHELL OIL 5744 DEL MAR
+2026-01-25,2026,2026-01,Sunday,Movie Theater,Entertainment,Debit,-36.42,36.42,0.0,AMC ONLINE 4421
+2026-01-25,2026,2026-01,Sunday,Chipotle,Dining,Debit,-14.59,14.59,0.0,chipotle online order
+2026-01-25,2026,2026-01,Sunday,Shell,Transport,Debit,-36.87,36.87,0.0,SHELL SERVICE STATION
+2026-01-25,2026,2026-01,Sunday,CVS Pharmacy,Personal Care,Debit,-15.75,15.75,0.0,CVS PHARMACY 04421
+2026-01-27,2026,2026-01,Tuesday,Uber Eats,Dining,Debit,-13.09,13.09,0.0,Uber *Eats
+2026-01-28,2026,2026-01,Wednesday,Venmo Cashout,Income,Credit,104.66,0.0,104.66,ACH CREDIT VENMO CASHOUT
+2026-01-29,2026,2026-01,Thursday,In-N-Out,Dining,Debit,-15.15,15.15,0.0,IN N OUT BURGER #221
+2026-01-30,2026,2026-01,Friday,Starbucks,Coffee,Debit,-8.49,8.49,0.0,STARBUCKS STORE 04521
+2026-01-30,2026,2026-01,Friday,Shell,Transport,Debit,-48.43,48.43,0.0,SHELL OIL 57441221
+2026-01-30,2026,2026-01,Friday,Amazon,Shopping,Debit,-98.37,98.37,0.0,AMAZON MKTPLACE PMTS
+2026-01-30,2026,2026-01,Friday,Chipotle,Dining,Debit,-16.05,16.05,0.0,CHIPOTLE 2841
+2026-01-31,2026,2026-01,Saturday,In-N-Out,Dining,Debit,-10.09,10.09,0.0,IN-N-OUT BURGER 221
+2026-02-01,2026,2026-02,Sunday,Amazon,Shopping,Debit,-71.06,71.06,0.0,AMAZON MKTPLACE PMTS
+2026-02-01,2026,2026-02,Sunday,Rent,Housing,Debit,-2150.0,2150.0,0.0,EFT WITHDRAWAL PROPERTY MG
+2026-02-01,2026,2026-02,Sunday,CVS Pharmacy,Personal Care,Debit,-15.95,15.95,0.0,cvs pharm 4421
+2026-02-02,2026,2026-02,Monday,Uber Eats,Dining,Debit,-9.15,9.15,0.0,Uber *Eats
+2026-02-02,2026,2026-02,Monday,Vons,Groceries,Debit,-20.07,20.07,0.0,vons 3221
+2026-02-02,2026,2026-02,Monday,Uber Eats,Dining,Debit,-14.06,14.06,0.0,UBER *EATS 99214
+2026-02-03,2026,2026-02,Tuesday,Target,Shopping,Debit,-84.16,84.16,0.0,TARGET 00018821
+2026-02-03,2026,2026-02,Tuesday,Target,Shopping,Debit,-99.83,99.83,0.0,TARGET 00018821
+2026-02-04,2026,2026-02,Wednesday,Target Refund 00018821,Shopping,Credit,33.94,-33.94,0.0,TARGET REFUND 00018821
+2026-02-04,2026,2026-02,Wednesday,DoorDash,Dining,Debit,-25.84,25.84,0.0,DOORDASH*PIZZA HUT
+2026-02-05,2026,2026-02,Thursday,Netflix,Subscriptions,Debit,-15.49,15.49,0.0,Netflix Subscription
+2026-02-05,2026,2026-02,Thursday,Spotify,Subscriptions,Debit,-10.99,10.99,0.0,SPOTIFY USA NEW YORK NY
+2026-02-06,2026,2026-02,Friday,Lyft,Transport,Debit,-19.57,19.57,0.0,Lyft *Ride Sat 11pm
+2026-02-06,2026,2026-02,Friday,Starbucks,Coffee,Debit,-8.25,8.25,0.0,STARBUCKS #04521 SAN DIEGO CA
+2026-02-06,2026,2026-02,Friday,Acme Corp Payroll,Income,Credit,2840.5,0.0,2840.5,DIRECT DEPOSIT - ACME CORP PAYROLL
+2026-02-06,2026,2026-02,Friday,Starbucks,Coffee,Debit,-9.08,9.08,0.0,STARBUCKS STORE 04521
+2026-02-07,2026,2026-02,Saturday,Starbucks,Coffee,Debit,-6.81,6.81,0.0,STARBUCKS #04521 SAN DIEGO CA
+2026-02-08,2026,2026-02,Sunday,Chipotle,Dining,Debit,-15.03,15.03,0.0,chipotle online order
+2026-02-08,2026,2026-02,Sunday,24 Hour Fitness,Fitness,Debit,-39.99,39.99,0.0,24HR FITNESS USA
+2026-02-09,2026,2026-02,Monday,Chipotle,Dining,Debit,-16.45,16.45,0.0,chipotle online order
+2026-02-10,2026,2026-02,Tuesday,Shell,Transport,Debit,-48.96,48.96,0.0,SHELL OIL 5744 DEL MAR
+2026-02-11,2026,2026-02,Wednesday,Amazon,Shopping,Debit,-137.89,137.89,0.0,Amazon.com
+2026-02-11,2026,2026-02,Wednesday,CorePower Yoga,Fitness,Debit,-24.0,24.0,0.0,COREPOWER YOGA #88
+2026-02-12,2026,2026-02,Thursday,CVS Pharmacy,Personal Care,Debit,-27.48,27.48,0.0,cvs/pharmacy #04421
+2026-02-12,2026,2026-02,Thursday,SDG&E,Utilities,Debit,-154.33,154.33,0.0,SDG&E AUTOPAY
+2026-02-13,2026,2026-02,Friday,Target,Shopping,Debit,-68.86,68.86,0.0,Target.com *order
+2026-02-14,2026,2026-02,Saturday,In-N-Out,Dining,Debit,-10.26,10.26,0.0,IN-N-OUT BURGER 221
+2026-02-14,2026,2026-02,Saturday,Starbucks,Coffee,Debit,-8.27,8.27,0.0,STARBUCKS STORE 04521
+2026-02-14,2026,2026-02,Saturday,Amazon,Shopping,Debit,-66.18,66.18,0.0,Amazon.com
+2026-02-15,2026,2026-02,Sunday,Venmo Cashout,Income,Credit,140.14,0.0,140.14,ACH CREDIT VENMO CASHOUT
+2026-02-15,2026,2026-02,Sunday,Starbucks,Coffee,Debit,-6.61,6.61,0.0,SBUX *MOBILE ORDER 8821
+2026-02-16,2026,2026-02,Monday,Starbucks,Coffee,Debit,-9.26,9.26,0.0,STARBUCKS #04521 SAN DIEGO CA
+2026-02-16,2026,2026-02,Monday,Uber,Transport,Debit,-20.42,20.42,0.0,UBER *TRIP HELP.UBER.COM
+2026-02-18,2026,2026-02,Wednesday,Chipotle,Dining,Debit,-17.71,17.71,0.0,CHIPOTLE MEXICAN GRILL #2841
+2026-02-18,2026,2026-02,Wednesday,AT&T,Utilities,Debit,-88.69,88.69,0.0,AT&T*BILL PAYMENT
+2026-02-18,2026,2026-02,Wednesday,Target,Shopping,Debit,-66.96,66.96,0.0,Target.com *order
+2026-02-18,2026,2026-02,Wednesday,DoorDash,Dining,Debit,-19.35,19.35,0.0,DD DOORDASH BURGERLO
+2026-02-19,2026,2026-02,Thursday,Starbucks,Coffee,Debit,-5.07,5.07,0.0,starbucks coffee
+2026-02-19,2026,2026-02,Thursday,Vons,Groceries,Debit,-39.13,39.13,0.0,VONS 3221
+2026-02-19,2026,2026-02,Thursday,Venmo Cashout,Income,Credit,157.72,0.0,157.72,ACH CREDIT VENMO CASHOUT
+2026-02-20,2026,2026-02,Friday,Acme Corp Payroll,Income,Credit,2840.5,0.0,2840.5,DIRECT DEPOSIT - ACME CORP PAYROLL
+2026-02-20,2026,2026-02,Friday,CorePower Yoga,Fitness,Debit,-24.0,24.0,0.0,CORE POWER YOGA SD
+2026-02-21,2026,2026-02,Saturday,Trader Joe's,Groceries,Debit,-23.04,23.04,0.0,TRADER JOE'S #221
+2026-02-22,2026,2026-02,Sunday,Amazon,Shopping,Debit,-113.48,113.48,0.0,Amazon.com
+2026-02-22,2026,2026-02,Sunday,Apple,Subscriptions,Debit,-4.59,4.59,0.0,APPLE.COM/BILL
+2026-02-24,2026,2026-02,Tuesday,Starbucks,Coffee,Debit,-7.28,7.28,0.0,STARBUCKS STORE 04521
+2026-02-25,2026,2026-02,Wednesday,Chipotle,Dining,Debit,-12.95,12.95,0.0,chipotle online order
+2026-02-25,2026,2026-02,Wednesday,Uber,Transport,Debit,-18.21,18.21,0.0,UBER *TRIP HELP.UBER.COM
+2026-02-26,2026,2026-02,Thursday,Target,Shopping,Debit,-72.56,72.56,0.0,Target.com *order
+2026-02-26,2026,2026-02,Thursday,Starbucks,Coffee,Debit,-7.37,7.37,0.0,STARBUCKS #04521 SAN DIEGO CA
+2026-02-27,2026,2026-02,Friday,Uber,Transport,Debit,-32.81,32.81,0.0,UBER *TRIP HELP.UBER.COM
+2026-02-27,2026,2026-02,Friday,DoorDash,Dining,Debit,-29.65,29.65,0.0,DOORDASH*PIZZA HUT
+2026-02-28,2026,2026-02,Saturday,Unknown,Uncategorized,Debit,-47.72,47.72,0.0,
+2026-02-28,2026,2026-02,Saturday,Starbucks,Coffee,Debit,-5.41,5.41,0.0,starbucks #04521 san diego ca
+2026-03-01,2026,2026-03,Sunday,Rent,Housing,Debit,-2150.0,2150.0,0.0,ACH PMT - PROPERTY MGMT LLC
+2026-03-01,2026,2026-03,Sunday,Unknown,Uncategorized,Debit,-10.3,10.3,0.0,
+2026-03-01,2026,2026-03,Sunday,Uber,Transport,Debit,-22.96,22.96,0.0,UBER *TRIP HELP.UBER.COM
+2026-03-02,2026,2026-03,Monday,Shell,Transport,Debit,-43.58,43.58,0.0,SHELL SERVICE STATION
+2026-03-02,2026,2026-03,Monday,Venmo Cashout,Income,Credit,30.16,0.0,30.16,ACH CREDIT VENMO CASHOUT
+2026-03-03,2026,2026-03,Tuesday,Starbucks,Coffee,Debit,-5.95,5.95,0.0,STARBUCKS #04521 SAN DIEGO CA
+2026-03-04,2026,2026-03,Wednesday,Starbucks,Coffee,Debit,-5.36,5.36,0.0,starbucks coffee
+2026-03-05,2026,2026-03,Thursday,Chipotle,Dining,Debit,-16.38,16.38,0.0,CHIPOTLE MEXICAN GRILL #2841
+2026-03-05,2026,2026-03,Thursday,Netflix,Subscriptions,Debit,-15.49,15.49,0.0,netflix.com
+2026-03-05,2026,2026-03,Thursday,Spotify,Subscriptions,Debit,-10.99,10.99,0.0,SPOTIFY USA NEW YORK NY
+2026-03-06,2026,2026-03,Friday,Shell,Transport,Debit,-61.75,61.75,0.0,SHELL OIL 5744 DEL MAR
+2026-03-06,2026,2026-03,Friday,CorePower Yoga,Fitness,Debit,-24.0,24.0,0.0,CORE POWER YOGA SD
+2026-03-06,2026,2026-03,Friday,Amazon,Shopping,Debit,-98.2,98.2,0.0,Amazon.com
+2026-03-06,2026,2026-03,Friday,Starbucks,Coffee,Debit,-9.42,9.42,0.0,STARBUCKS #04521 SAN DIEGO CA
+2026-03-06,2026,2026-03,Friday,Acme Corp Payroll,Income,Credit,2840.5,0.0,2840.5,DIRECT DEPOSIT - ACME CORP PAYROLL
+2026-03-07,2026,2026-03,Saturday,Chipotle,Dining,Debit,-15.74,15.74,0.0,CHIPOTLE MEXICAN GRILL #2841
+2026-03-07,2026,2026-03,Saturday,Amazon,Shopping,Debit,-116.89,116.89,0.0,AMAZON MKTPLACE PMTS
+2026-03-08,2026,2026-03,Sunday,24 Hour Fitness,Fitness,Debit,-39.99,39.99,0.0,24HR FITNESS USA
+2026-03-08,2026,2026-03,Sunday,Trader Joe's,Groceries,Debit,-72.13,72.13,0.0,TRADER JOES #221 LA JOLLA
+2026-03-09,2026,2026-03,Monday,Amazon,Shopping,Debit,-29.33,29.33,0.0,AMAZON.COM*RT4421
+2026-03-09,2026,2026-03,Monday,Ralphs,Groceries,Debit,-44.96,44.96,0.0,RALPHS #0712
+2026-03-09,2026,2026-03,Monday,Uber Eats,Dining,Debit,-22.18,22.18,0.0,UBER *EATS 99214
+2026-03-10,2026,2026-03,Tuesday,DoorDash,Dining,Debit,-29.8,29.8,0.0,DD DOORDASH BURGERLO
+2026-03-10,2026,2026-03,Tuesday,CorePower Yoga,Fitness,Debit,-24.0,24.0,0.0,CORE POWER YOGA SD
+2026-03-10,2026,2026-03,Tuesday,Starbucks,Coffee,Debit,-5.82,5.82,0.0,STARBUCKS STORE 04521
+2026-03-10,2026,2026-03,Tuesday,Uber Eats,Dining,Debit,-14.57,14.57,0.0,UBER *EATS 99214
+2026-03-12,2026,2026-03,Thursday,SDG&E,Utilities,Debit,-126.3,126.3,0.0,SAN DIEGO GAS & ELEC
+2026-03-12,2026,2026-03,Thursday,Amazon,Shopping,Debit,-128.02,128.02,0.0,AMZN Mktp US*8821B
+2026-03-13,2026,2026-03,Friday,In-N-Out,Dining,Debit,-20.57,20.57,0.0,IN N OUT BURGER #221
+2026-03-13,2026,2026-03,Friday,Starbucks,Coffee,Debit,-9.39,9.39,0.0,STARBUCKS STORE 04521
+2026-03-13,2026,2026-03,Friday,Uber Eats,Dining,Debit,-15.55,15.55,0.0,UBER *EATS 99214
+2026-03-14,2026,2026-03,Saturday,Venmo Cashout,Income,Credit,74.43,0.0,74.43,ACH CREDIT VENMO CASHOUT
+2026-03-15,2026,2026-03,Sunday,Vons,Groceries,Debit,-67.34,67.34,0.0,VONS STORE 3221 DEL MAR
+2026-03-15,2026,2026-03,Sunday,Lyft,Transport,Debit,-12.06,12.06,0.0,Lyft *Ride Sat 11pm
+2026-03-16,2026,2026-03,Monday,Amazon,Shopping,Debit,-14.36,14.36,0.0,AMZN MKTPL*A21XK7
+2026-03-18,2026,2026-03,Wednesday,Starbucks,Coffee,Debit,-6.75,6.75,0.0,STARBUCKS STORE 04521
+2026-03-18,2026,2026-03,Wednesday,DoorDash,Dining,Debit,-40.83,40.83,0.0,DOORDASH*PIZZA HUT
+2026-03-18,2026,2026-03,Wednesday,AT&T,Utilities,Debit,-84.18,84.18,0.0,AT&T MOBILITY
+2026-03-19,2026,2026-03,Thursday,Starbucks,Coffee,Debit,-4.79,4.79,0.0,STARBUCKS STORE 04521
+2026-03-19,2026,2026-03,Thursday,Amazon.Com*Refund Rt4421,Shopping,Credit,49.2,-49.2,0.0,AMAZON.COM*REFUND RT4421
+2026-03-19,2026,2026-03,Thursday,CorePower Yoga,Fitness,Debit,-24.0,24.0,0.0,CORE POWER YOGA SD
+2026-03-20,2026,2026-03,Friday,Trader Joe's,Groceries,Debit,-29.22,29.22,0.0,TJ'S #221
+2026-03-20,2026,2026-03,Friday,Shell,Transport,Debit,-51.39,51.39,0.0,SHELL OIL 5744 DEL MAR
+2026-03-20,2026,2026-03,Friday,Starbucks,Coffee,Debit,-8.54,8.54,0.0,starbucks coffee
+2026-03-20,2026,2026-03,Friday,Acme Corp Payroll,Income,Credit,2840.5,0.0,2840.5,PAYROLL DEPOSIT ACME CORP
+2026-03-21,2026,2026-03,Saturday,Ralphs,Groceries,Debit,-33.88,33.88,0.0,RALPHS GROCERY 0712 SD
+2026-03-21,2026,2026-03,Saturday,Uber Eats,Dining,Debit,-25.92,25.92,0.0,UBER *EATS 99214
+2026-03-21,2026,2026-03,Saturday,Starbucks,Coffee,Debit,-7.64,7.64,0.0,SBUX *MOBILE ORDER 8821
+2026-03-21,2026,2026-03,Saturday,Starbucks,Coffee,Debit,-6.8,6.8,0.0,STARBUCKS STORE 04521
+2026-03-22,2026,2026-03,Sunday,Apple,Subscriptions,Debit,-8.2,8.2,0.0,APPLE.COM/BILL
+2026-03-22,2026,2026-03,Sunday,Chipotle,Dining,Debit,-13.81,13.81,0.0,CHIPOTLE 2841
+2026-03-22,2026,2026-03,Sunday,Lyft,Transport,Debit,-24.97,24.97,0.0,LYFT *RIDE WED 3PM
+2026-03-22,2026,2026-03,Sunday,Starbucks,Coffee,Debit,-8.77,8.77,0.0,SBUX *MOBILE ORDER 8821
+2026-03-23,2026,2026-03,Monday,Chipotle,Dining,Debit,-17.07,17.07,0.0,CHIPOTLE 2841
+2026-03-23,2026,2026-03,Monday,Trader Joe's,Groceries,Debit,-87.5,87.5,0.0,trader joe's
+2026-03-25,2026,2026-03,Wednesday,Ralphs,Groceries,Debit,-83.4,83.4,0.0,Ralphs Grocery
+2026-03-25,2026,2026-03,Wednesday,Amazon,Shopping,Debit,-89.15,89.15,0.0,amzn mktpl*a21xk7
+2026-03-26,2026,2026-03,Thursday,Target,Shopping,Debit,-88.25,88.25,0.0,Target.com *order
+2026-03-26,2026,2026-03,Thursday,CVS Pharmacy,Personal Care,Debit,-12.66,12.66,0.0,CVS/PHARMACY #04421
+2026-03-26,2026,2026-03,Thursday,Trader Joe's,Groceries,Debit,-82.38,82.38,0.0,TRADER JOE'S #221
+2026-03-27,2026,2026-03,Friday,Target,Shopping,Debit,-54.14,54.14,0.0,Target.com *order
+2026-03-27,2026,2026-03,Friday,Uber,Transport,Debit,-12.34,12.34,0.0,UBER TRIP 8821AB
+2026-03-28,2026,2026-03,Saturday,Movie Theater,Entertainment,Debit,-20.11,20.11,0.0,REGAL CINEMAS
+2026-03-29,2026,2026-03,Sunday,Target,Shopping,Debit,-147.44,147.44,0.0,Target.com *order
+2026-03-29,2026,2026-03,Sunday,Lyft,Transport,Debit,-16.93,16.93,0.0,Lyft *Ride Sat 11pm
+2026-03-30,2026,2026-03,Monday,CorePower Yoga,Fitness,Debit,-24.0,24.0,0.0,COREPOWER YOGA #88
+2026-03-30,2026,2026-03,Monday,Amazon.Com*Refund Rt4421,Shopping,Credit,55.5,-55.5,0.0,AMAZON.COM*REFUND RT4421
+2026-03-31,2026,2026-03,Tuesday,Vons,Groceries,Debit,-22.53,22.53,0.0,VONS 3221
+2026-03-31,2026,2026-03,Tuesday,Amazon,Shopping,Debit,-29.42,29.42,0.0,AMAZON.COM*RT4421
+2026-03-31,2026,2026-03,Tuesday,Starbucks,Coffee,Debit,-7.56,7.56,0.0,STARBUCKS STORE 04521

@@ -1,0 +1,22 @@
+Initial rows loaded: 358
+Dropped fully-empty rows: 0
+Dropped rows with unparseable amount: 1
+Dropped rows with unparseable date: 0
+Dropped pending-transaction duplicates: 4
+Uncategorized transactions: 6
+Dropped exact duplicates: 5
+Final clean rows: 348
+
+=== Category breakdown ===
+  Housing              $ 12,900.00
+  Shopping             $  3,341.48
+  Groceries            $  2,263.50
+  Utilities            $  1,179.38
+  Transport            $  1,168.42
+  Dining               $  1,144.21
+  Fitness              $    575.94
+  Coffee               $    489.23
+  Subscriptions        $    191.65
+  Uncategorized        $    189.18
+  Personal Care        $    126.00
+  Entertainment        $    103.83

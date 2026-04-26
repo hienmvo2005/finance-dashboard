@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Finance Dashboard — Oct 2025 to Mar 2026</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=JetBrains+Mono:wght@400;500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --paper: #f3ede2;
+    --paper-2: #ebe3d4;
+    --ink: #1a1612;
+    --ink-soft: #4a4138;
+    --ink-mute: #8a7d6e;
+    --rule: #1a161220;
+    --accent: #b8482e;
+    --accent-soft: #d8a08c;
+    --positive: #2d6a4f;
+    --negative: #b8482e;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body {
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'Inter', system-ui, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+  }
+  body::before {
+    content: '';
+    position: fixed; inset: 0;
+    background-image:
+      radial-gradient(circle at 1px 1px, rgba(26,22,18,0.04) 1px, transparent 0);
+    background-size: 4px 4px;
+    pointer-events: none;
+    z-index: 0;
+  }
+  .page {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 56px 48px 80px;
+    position: relative;
+    z-index: 1;
+  }
+  /* ---------- Masthead ---------- */
+  .masthead {
+    border-bottom: 2px solid var(--ink);
+    padding-bottom: 18px;
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    gap: 32px;
+  }
+  .masthead-left h1 {
+    font-family: 'Fraunces', serif;
+    font-weight: 800;
+    font-size: 56px;
+    line-height: 0.95;
+    letter-spacing: -0.02em;
+    font-variation-settings: 'opsz' 144;
+  }
+  .masthead-left .sub {
+    margin-top: 10px;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 0.18em;
+    color: var(--ink-mute);
+  }
+  .masthead-right {
+    text-align: right;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-mute);
+    line-height: 1.7;
+  }
+  .masthead-right .vol {
+    color: var(--ink);
+    font-weight: 700;
+    font-size: 14px;
+  }
+  /* ---------- KPI strip ---------- */
+  .kpis {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border-top: 1px solid var(--rule);
+    border-bottom: 1px solid var(--rule);
+    margin-bottom: 48px;
+  }
+  .kpi {
+    padding: 24px 28px;
+    border-right: 1px solid var(--rule);
+    position: relative;
+  }
+  .kpi:last-child { border-right: none; }
+  .kpi .label {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--ink-mute);
+    margin-bottom: 12px;
+  }
+  .kpi .value {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 38px;
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+  .kpi .meta {
+    margin-top: 10px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    color: var(--ink-soft);
+  }
+  .kpi .pill {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 999px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-left: 4px;
+  }
+  .pill.pos { background: #e0eee7; color: var(--positive); }
+  .pill.neg { background: #f3dcd2; color: var(--negative); }
+
+  /* ---------- Section headers ---------- */
+  .section {
+    margin-top: 48px;
+  }
+  .section-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--ink);
+    padding-bottom: 10px;
+    margin-bottom: 24px;
+  }
+  .section-head h2 {
+    font-family: 'Fraunces', serif;
+    font-weight: 600;
+    font-size: 26px;
+    letter-spacing: -0.01em;
+  }
+  .section-head .note {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 0.14em;
+    color: var(--ink-mute);
+  }
+
+  /* ---------- Layout grid ---------- */
+  .grid-2 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 56px;
+    align-items: start;
+  }
+  .grid-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 56px;
+  }
+
+  /* ---------- Charts ---------- */
+  .chart-wrap {
+    width: 100%;
+  }
+  svg.chart { display: block; width: 100%; height: auto; }
+  text { font-family: 'JetBrains Mono', monospace; font-size: 11px; fill: var(--ink-soft); }
+  text.title { font-family: 'Fraunces', serif; font-size: 14px; font-weight: 600; fill: var(--ink); }
+  .axis line, .axis path { stroke: var(--ink); stroke-width: 0.75; }
+  .gridline { stroke: var(--rule); stroke-dasharray: 2 3; }
+
+  /* ---------- Category bars ---------- */
+  .cat-bars { display: flex; flex-direction: column; gap: 14px; }
+  .cat-row { display: grid; grid-template-columns: 100px 1fr 90px; align-items: center; gap: 14px; }
+  .cat-row .name { font-size: 13px; font-weight: 500; }
+  .cat-row .bar { height: 10px; background: var(--paper-2); position: relative; }
+  .cat-row .bar > span {
+    display: block; height: 100%;
+    background: var(--accent);
+  }
+  .cat-row .amount {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    text-align: right;
+    color: var(--ink);
+  }
+
+  /* ---------- Top merchants table ---------- */
+  table.merchants {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+  }
+  table.merchants th {
+    text-align: left;
+    border-bottom: 1.5px solid var(--ink);
+    padding: 8px 0;
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--ink-mute);
+    font-weight: 600;
+  }
+  table.merchants th.num { text-align: right; }
+  table.merchants td {
+    padding: 11px 0;
+    border-bottom: 1px solid var(--rule);
+  }
+  table.merchants td.num { text-align: right; }
+  table.merchants td.name {
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+  }
+  table.merchants tr:hover td { background: var(--paper-2); }
+
+  /* ---------- MoM heatmap ---------- */
+  .mom-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+  }
+  .mom-table th, .mom-table td {
+    padding: 8px 10px;
+    text-align: center;
+    border: 1px solid var(--rule);
+  }
+  .mom-table th:first-child, .mom-table td:first-child {
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+  }
+  .mom-table thead th {
+    background: var(--paper-2);
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+  }
+  .mom-cell { font-weight: 500; }
+
+  /* ---------- Footer ---------- */
+  .colophon {
+    margin-top: 80px;
+    padding-top: 24px;
+    border-top: 2px solid var(--ink);
+    display: flex;
+    justify-content: space-between;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    color: var(--ink-mute);
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  @media (max-width: 900px) {
+    .page { padding: 32px 24px; }
+    .masthead { flex-direction: column; align-items: flex-start; }
+    .masthead-left h1 { font-size: 38px; }
+    .masthead-right { text-align: left; }
+    .kpis { grid-template-columns: repeat(2, 1fr); }
+    .kpi { border-bottom: 1px solid var(--rule); }
+    .kpi:nth-child(2) { border-right: none; }
+    .grid-2, .grid-1-1 { grid-template-columns: 1fr; gap: 48px; }
+  }
+</style>
+</head>
+<body>
+<div class="page">
+
+  <!-- ============ Masthead ============ -->
+  <div class="masthead">
+    <div class="masthead-left">
+      <h1>The Ledger</h1>
+      <div class="sub">Personal Finance · Six-Month Review</div>
+    </div>
+    <div class="masthead-right">
+      <div class="vol">Vol. I — Oct 2025 / Mar 2026</div>
+      <div>348 transactions analyzed</div>
+      <div>Source: bank export, cleaned in Python</div>
+    </div>
+  </div>
+
+  <!-- ============ KPI strip ============ -->
+  <div class="kpis" id="kpis"></div>
+
+  <!-- ============ Monthly trend ============ -->
+  <div class="section">
+    <div class="section-head">
+      <h2>Spending Trend</h2>
+      <div class="note">Spend vs. Income · Monthly</div>
+    </div>
+    <div class="chart-wrap" id="chart-trend"></div>
+  </div>
+
+  <!-- ============ Categories + Top Merchants ============ -->
+  <div class="section grid-2">
+    <div>
+      <div class="section-head">
+        <h2>Where the Money Went</h2>
+        <div class="note">Excl. Housing</div>
+      </div>
+      <div class="cat-bars" id="cat-bars"></div>
+    </div>
+    <div>
+      <div class="section-head">
+        <h2>Top Merchants</h2>
+        <div class="note">By total spend</div>
+      </div>
+      <table class="merchants">
+        <thead>
+          <tr>
+            <th>Merchant</th>
+            <th class="num">Visits</th>
+            <th class="num">Total</th>
+          </tr>
+        </thead>
+        <tbody id="merchants-body"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- ============ Stacked monthly + Weekday ============ -->
+  <div class="section grid-1-1">
+    <div>
+      <div class="section-head">
+        <h2>Composition by Month</h2>
+        <div class="note">Top categories stacked</div>
+      </div>
+      <div class="chart-wrap" id="chart-stacked"></div>
+    </div>
+    <div>
+      <div class="section-head">
+        <h2>By Day of Week</h2>
+        <div class="note">Where weekends bite</div>
+      </div>
+      <div class="chart-wrap" id="chart-weekday"></div>
+    </div>
+  </div>
+
+  <!-- ============ Month-over-month heatmap ============ -->
+  <div class="section">
+    <div class="section-head">
+      <h2>Month-over-Month Change</h2>
+      <div class="note">% change from previous month, by category</div>
+    </div>
+    <div id="mom-heatmap"></div>
+  </div>
+
+  <!-- ============ Colophon ============ -->
+  <div class="colophon">
+    <div>Cleaned · Categorized · Visualized</div>
+    <div>Pandas → CSV → BI</div>
+  </div>
+</div>
+
+<!-- =================== Data =================== -->
+<script id="dashboard-data" type="application/json">{
+  "kpis": {
+    "total_spend": 23859.61,
+    "total_income": 37806.87,
+    "avg_monthly": 3976.6,
+    "mom_change_pct": 15.8,
+    "biggest_cat": "Housing",
+    "biggest_cat_amt": 12900.0,
+    "n_transactions": 348,
+    "date_range": "Oct 2025 \u2013 Mar 2026"
+  },
+  "monthly": [
+    {
+      "Month": "2025-10",
+      "Spend": 4161.69,
+      "Income": 8779.42
+    },
+    {
+      "Month": "2025-11",
+      "Spend": 3338.31,
+      "Income": 5681.0
+    },
+    {
+      "Month": "2025-12",
+      "Spend": 3949.66,
+      "Income": 5681.0
+    },
+    {
+      "Month": "2026-01",
+      "Spend": 4101.72,
+      "Income": 5901.0
+    },
+    {
+      "Month": "2026-02",
+      "Spend": 3850.28,
+      "Income": 5978.86
+    },
+    {
+      "Month": "2026-03",
+      "Spend": 4457.95,
+      "Income": 5785.59
+    }
+  ],
+  "categories": [
+    {
+      "Category": "Shopping",
+      "Spend": 3528.27
+    },
+    {
+      "Category": "Groceries",
+      "Spend": 2263.5
+    },
+    {
+      "Category": "Utilities",
+      "Spend": 1179.38
+    },
+    {
+      "Category": "Transport",
+      "Spend": 1168.42
+    },
+    {
+      "Category": "Dining",
+      "Spend": 1144.21
+    },
+    {
+      "Category": "Fitness",
+      "Spend": 575.94
+    },
+    {
+      "Category": "Coffee",
+      "Spend": 489.23
+    },
+    {
+      "Category": "Subscriptions",
+      "Spend": 191.65
+    },
+    {
+      "Category": "Uncategorized",
+      "Spend": 189.18
+    },
+    {
+      "Category": "Personal Care",
+      "Spend": 126.0
+    },
+    {
+      "Category": "Entertainment",
+      "Spend": 103.83
+    }
+  ],
+  "top_merchants": [
+    {
+      "Merchant": "Amazon",
+      "Spend": 2568.05,
+      "Count": 32
+    },
+    {
+      "Merchant": "Trader Joe's",
+      "Spend": 1146.75,
+      "Count": 22
+    },
+    {
+      "Merchant": "Target",
+      "Spend": 960.22,
+      "Count": 12
+    },
+    {
+      "Merchant": "Ralphs",
+      "Spend": 811.64,
+      "Count": 14
+    },
+    {
+      "Merchant": "SDG&E",
+      "Spend": 676.46,
+      "Count": 5
+    },
+    {
+      "Merchant": "Shell",
+      "Spend": 544.89,
+      "Count": 10
+    },
+    {
+      "Merchant": "AT&T",
+      "Spend": 502.92,
+      "Count": 6
+    },
+    {
+      "Merchant": "Starbucks",
+      "Spend": 489.23,
+      "Count": 69
+    },
+    {
+      "Merchant": "DoorDash",
+      "Spend": 477.03,
+      "Count": 16
+    },
+    {
+      "Merchant": "CorePower Yoga",
+      "Spend": 336.0,
+      "Count": 14
+    }
+  ],
+  "stacked": {
+    "months": [
+      "2025-10",
+      "2025-11",
+      "2025-12",
+      "2026-01",
+      "2026-02",
+      "2026-03"
+    ],
+    "categories": [
+      "Housing",
+      "Shopping",
+      "Groceries",
+      "Utilities",
+      "Transport",
+      "Dining",
+      "Fitness",
+      "Coffee",
+      "Subscriptions",
+      "Uncategorized",
+      "Personal Care",
+      "Entertainment"
+    ],
+    "values": [
+      [
+        2150.0,
+        1008.63,
+        255.09,
+        170.9,
+        161.08,
+        103.75,
+        111.99,
+        139.37,
+        30.86,
+        30.02,
+        0.0,
+        0.0
+      ],
+      [
+        2150.0,
+        145.16,
+        247.05,
+        235.84,
+        102.01,
+        201.89,
+        87.99,
+        69.33,
+        30.19,
+        0.0,
+        43.86,
+        24.99
+      ],
+      [
+        2150.0,
+        533.85,
+        418.8,
+        91.59,
+        227.25,
+        167.57,
+        111.99,
+        86.54,
+        33.51,
+        95.95,
+        10.3,
+        22.31
+      ],
+      [
+        2150.0,
+        264.45,
+        736.98,
+        227.55,
+        292.13,
+        268.13,
+        39.99,
+        33.79,
+        31.34,
+        5.19,
+        15.75,
+        36.42
+      ],
+      [
+        2150.0,
+        780.98,
+        82.24,
+        243.02,
+        139.97,
+        170.45,
+        87.99,
+        73.41,
+        31.07,
+        47.72,
+        43.43,
+        0.0
+      ],
+      [
+        2150.0,
+        795.2,
+        523.34,
+        210.48,
+        245.98,
+        232.42,
+        135.99,
+        86.79,
+        34.68,
+        10.3,
+        12.66,
+        20.11
+      ]
+    ]
+  },
+  "weekday": [
+    {
+      "day": "Monday",
+      "spend": 3393.99
+    },
+    {
+      "day": "Tuesday",
+      "spend": 1366.63
+    },
+    {
+      "day": "Wednesday",
+      "spend": 3858.2
+    },
+    {
+      "day": "Thursday",
+      "spend": 3949.3
+    },
+    {
+      "day": "Friday",
+      "spend": 1620.72
+    },
+    {
+      "day": "Saturday",
+      "spend": 3751.54
+    },
+    {
+      "day": "Sunday",
+      "spend": 5919.23
+    }
+  ],
+  "mom_pct": {
+    "2025-10": {
+      "Housing": 0.0,
+      "Shopping": 0.0,
+      "Groceries": 0.0,
+      "Utilities": 0.0,
+      "Transport": 0.0,
+      "Dining": 0.0,
+      "Fitness": 0.0,
+      "Coffee": 0.0,
+      "Subscriptions": 0.0,
+      "Uncategorized": 0.0,
+      "Personal Care": 0.0,
+      "Entertainment": 0.0
+    },
+    "2025-11": {
+      "Housing": 0.0,
+      "Shopping": -85.6,
+      "Groceries": -3.2,
+      "Utilities": 38.0,
+      "Transport": -36.7,
+      "Dining": 94.6,
+      "Fitness": -21.4,
+      "Coffee": -50.3,
+      "Subscriptions": -2.1999999999999997,
+      "Uncategorized": -100.0,
+      "Personal Care": Infinity,
+      "Entertainment": Infinity
+    },
+    "2025-12": {
+      "Housing": 0.0,
+      "Shopping": 267.8,
+      "Groceries": 69.5,
+      "Utilities": -61.199999999999996,
+      "Transport": 122.8,
+      "Dining": -17.0,
+      "Fitness": 27.3,
+      "Coffee": 24.8,
+      "Subscriptions": 11.0,
+      "Uncategorized": Infinity,
+      "Personal Care": -76.5,
+      "Entertainment": -10.7
+    },
+    "2026-01": {
+      "Housing": 0.0,
+      "Shopping": -50.5,
+      "Groceries": 76.0,
+      "Utilities": 148.4,
+      "Transport": 28.599999999999998,
+      "Dining": 60.0,
+      "Fitness": -64.3,
+      "Coffee": -61.0,
+      "Subscriptions": -6.5,
+      "Uncategorized": -94.6,
+      "Personal Care": 52.900000000000006,
+      "Entertainment": 63.2
+    },
+    "2026-02": {
+      "Housing": 0.0,
+      "Shopping": 195.3,
+      "Groceries": -88.8,
+      "Utilities": 6.800000000000001,
+      "Transport": -52.1,
+      "Dining": -36.4,
+      "Fitness": 120.0,
+      "Coffee": 117.30000000000001,
+      "Subscriptions": -0.8999999999999999,
+      "Uncategorized": 819.5,
+      "Personal Care": 175.7,
+      "Entertainment": -100.0
+    },
+    "2026-03": {
+      "Housing": 0.0,
+      "Shopping": 1.7999999999999998,
+      "Groceries": 536.4,
+      "Utilities": -13.4,
+      "Transport": 75.7,
+      "Dining": 36.4,
+      "Fitness": 54.6,
+      "Coffee": 18.2,
+      "Subscriptions": 11.600000000000001,
+      "Uncategorized": -78.4,
+      "Personal Care": -70.8,
+      "Entertainment": Infinity
+    }
+  }
+}</script>
+
+<script>
+  const DATA = JSON.parse(document.getElementById('dashboard-data').textContent);
+  const fmt$ = n => '$' + Math.round(n).toLocaleString();
+  const fmt$2 = n => '$' + n.toLocaleString(undefined, {minimumFractionDigits: 2, maximumFractionDigits: 2});
+
+  // Color ramp for categories
+  const PALETTE = ['#b8482e', '#1a1612', '#c4824a', '#6b4d2e', '#8a3d2a',
+                   '#4a3a2c', '#d8a08c', '#3d5a3d', '#7a5c4a', '#5c3d2e', '#a06850'];
+
+  // ===== KPIs =====
+  const k = DATA.kpis;
+  const monthly = DATA.monthly;
+  const lastMonth = monthly[monthly.length - 1];
+  const prevMonth = monthly[monthly.length - 2];
+  const kpis = [
+    { label: 'Total Spend', value: fmt$(k.total_spend), meta: `over ${monthly.length} months` },
+    { label: 'Avg Monthly', value: fmt$(k.avg_monthly), meta: `vs $${prevMonth.Spend.toLocaleString()} last mo.` },
+    { label: 'Latest Month', value: fmt$(lastMonth.Spend),
+      meta: `<span class="pill ${k.mom_change_pct > 0 ? 'neg' : 'pos'}">${k.mom_change_pct > 0 ? '▲' : '▼'} ${Math.abs(k.mom_change_pct)}%</span> vs. previous` },
+    { label: 'Net Savings', value: fmt$(k.total_income - k.total_spend),
+      meta: `${Math.round((1 - k.total_spend/k.total_income)*100)}% of income retained` },
+  ];
+  document.getElementById('kpis').innerHTML = kpis.map(x => `
+    <div class="kpi">
+      <div class="label">${x.label}</div>
+      <div class="value">${x.value}</div>
+      <div class="meta">${x.meta}</div>
+    </div>`).join('');
+
+  // ===== Monthly Trend Chart =====
+  (() => {
+    const w = 900, h = 320, pad = {t: 20, r: 30, b: 40, l: 60};
+    const iw = w - pad.l - pad.r, ih = h - pad.t - pad.b;
+    const months = monthly.map(m => m.Month);
+    const maxV = Math.max(...monthly.map(m => Math.max(m.Spend, m.Income))) * 1.1;
+
+    const x = i => pad.l + (i / (months.length - 1)) * iw;
+    const y = v => pad.t + ih - (v / maxV) * ih;
+
+    const lineSpend = monthly.map((m, i) => `${i === 0 ? 'M' : 'L'}${x(i)},${y(m.Spend)}`).join(' ');
+    const lineIncome = monthly.map((m, i) => `${i === 0 ? 'M' : 'L'}${x(i)},${y(m.Income)}`).join(' ');
+    const areaSpend = `${lineSpend} L${x(months.length-1)},${pad.t+ih} L${x(0)},${pad.t+ih} Z`;
+
+    const ticks = [0, maxV*0.25, maxV*0.5, maxV*0.75, maxV];
+    const monthLabel = m => {
+      const [y, mo] = m.split('-');
+      return ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][parseInt(mo)-1] + " '" + y.slice(2);
+    };
+
+    document.getElementById('chart-trend').innerHTML = `
+      <svg class="chart" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet">
+        <!-- gridlines -->
+        ${ticks.map(t => `
+          <line class="gridline" x1="${pad.l}" x2="${pad.l + iw}" y1="${y(t)}" y2="${y(t)}"/>
+          <text x="${pad.l - 8}" y="${y(t) + 4}" text-anchor="end">${fmt$(t)}</text>
+        `).join('')}
+        <!-- axis -->
+        <line class="axis" x1="${pad.l}" x2="${pad.l + iw}" y1="${pad.t + ih}" y2="${pad.t + ih}" stroke="var(--ink)"/>
+        <!-- spend area -->
+        <path d="${areaSpend}" fill="var(--accent)" fill-opacity="0.12"/>
+        <path d="${lineSpend}" fill="none" stroke="var(--accent)" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+        <!-- income line -->
+        <path d="${lineIncome}" fill="none" stroke="var(--ink)" stroke-width="1.5" stroke-dasharray="4 4"/>
+        <!-- points -->
+        ${monthly.map((m, i) => `
+          <circle cx="${x(i)}" cy="${y(m.Spend)}" r="5" fill="var(--paper)" stroke="var(--accent)" stroke-width="2.5"/>
+          <text x="${x(i)}" y="${y(m.Spend) - 14}" text-anchor="middle" font-weight="600" fill="var(--ink)">${fmt$(m.Spend)}</text>
+        `).join('')}
+        ${monthly.map((m, i) => `
+          <text x="${x(i)}" y="${pad.t + ih + 22}" text-anchor="middle">${monthLabel(m.Month)}</text>
+        `).join('')}
+        <!-- legend -->
+        <g transform="translate(${pad.l + 4}, ${pad.t + 4})">
+          <line x1="0" x2="20" y1="6" y2="6" stroke="var(--accent)" stroke-width="2.5"/>
+          <text x="26" y="10" fill="var(--ink)">Spending</text>
+          <line x1="100" x2="120" y1="6" y2="6" stroke="var(--ink)" stroke-width="1.5" stroke-dasharray="4 4"/>
+          <text x="126" y="10" fill="var(--ink)">Income</text>
+        </g>
+      </svg>`;
+  })();
+
+  // ===== Category bars =====
+  (() => {
+    const cats = DATA.categories;
+    const max = Math.max(...cats.map(c => c.Spend));
+    document.getElementById('cat-bars').innerHTML = cats.map(c => `
+      <div class="cat-row">
+        <div class="name">${c.Category}</div>
+        <div class="bar"><span style="width:${(c.Spend / max) * 100}%"></span></div>
+        <div class="amount">${fmt$2(c.Spend)}</div>
+      </div>`).join('');
+  })();
+
+  // ===== Top merchants =====
+  (() => {
+    document.getElementById('merchants-body').innerHTML = DATA.top_merchants.map(m => `
+      <tr>
+        <td class="name">${m.Merchant}</td>
+        <td class="num">${m.Count}</td>
+        <td class="num">${fmt$2(m.Spend)}</td>
+      </tr>`).join('');
+  })();
+
+  // ===== Stacked bar by month =====
+  (() => {
+    const w = 600, h = 300, pad = {t: 20, r: 20, b: 36, l: 50};
+    const iw = w - pad.l - pad.r, ih = h - pad.t - pad.b;
+    const { months, categories, values } = DATA.stacked;
+    // Use top 6 categories, group rest as "Other"
+    const TOP_N = 6;
+    const top = categories.slice(0, TOP_N);
+    const totalsByMonth = values.map(row => row.reduce((s, v) => s + v, 0));
+    const maxTotal = Math.max(...totalsByMonth) * 1.05;
+
+    const bw = iw / months.length * 0.7;
+    const gap = iw / months.length * 0.3;
+
+    let svg = '';
+    months.forEach((mo, mi) => {
+      const xpos = pad.l + mi * (bw + gap) + gap/2;
+      let ystart = pad.t + ih;
+      categories.forEach((cat, ci) => {
+        if (ci >= TOP_N) return;
+        const v = values[mi][ci];
+        const segH = (v / maxTotal) * ih;
+        ystart -= segH;
+        svg += `<rect x="${xpos}" y="${ystart}" width="${bw}" height="${segH}" fill="${PALETTE[ci]}"/>`;
+      });
+      // Other
+      let otherV = 0;
+      for (let ci = TOP_N; ci < categories.length; ci++) otherV += values[mi][ci];
+      const segH = (otherV / maxTotal) * ih;
+      ystart -= segH;
+      svg += `<rect x="${xpos}" y="${ystart}" width="${bw}" height="${segH}" fill="var(--paper-2)"/>`;
+
+      const moLabel = mo.split('-')[1];
+      svg += `<text x="${xpos + bw/2}" y="${pad.t + ih + 16}" text-anchor="middle">${['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][parseInt(moLabel)-1]}</text>`;
+      svg += `<text x="${xpos + bw/2}" y="${pad.t + ih - (totalsByMonth[mi]/maxTotal)*ih - 6}" text-anchor="middle" font-weight="600" fill="var(--ink)">${fmt$(totalsByMonth[mi])}</text>`;
+    });
+    // y axis
+    const ticks = [0, maxTotal*0.5, maxTotal];
+    const y = v => pad.t + ih - (v / maxTotal) * ih;
+    ticks.forEach(t => {
+      svg += `<line class="gridline" x1="${pad.l}" x2="${pad.l + iw}" y1="${y(t)}" y2="${y(t)}"/>`;
+      svg += `<text x="${pad.l - 8}" y="${y(t) + 4}" text-anchor="end">${fmt$(t)}</text>`;
+    });
+    // Legend below
+    let legendY = h + 20;
+    const legendItems = [...top, 'Other'];
+    let legendSvg = '<g transform="translate(0, 0)">';
+    let lx = 0;
+    legendItems.forEach((cat, i) => {
+      legendSvg += `<rect x="${lx}" y="0" width="10" height="10" fill="${i < TOP_N ? PALETTE[i] : 'var(--paper-2)'}" stroke="${i < TOP_N ? 'none' : 'var(--rule)'}"/>`;
+      legendSvg += `<text x="${lx + 14}" y="9">${cat}</text>`;
+      lx += 14 + cat.length * 6.5 + 14;
+    });
+    legendSvg += '</g>';
+    document.getElementById('chart-stacked').innerHTML = `
+      <svg class="chart" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet">${svg}</svg>
+      <svg viewBox="0 0 ${w} 24" preserveAspectRatio="xMidYMid meet" style="width:100%;height:24px;margin-top:8px;">${legendSvg}</svg>`;
+  })();
+
+  // ===== Weekday chart =====
+  (() => {
+    const w = 600, h = 300, pad = {t: 20, r: 20, b: 36, l: 60};
+    const iw = w - pad.l - pad.r, ih = h - pad.t - pad.b;
+    const data = DATA.weekday;
+    const max = Math.max(...data.map(d => d.spend)) * 1.1;
+    const bw = iw / data.length * 0.65;
+    const gap = iw / data.length * 0.35;
+    let svg = '';
+    data.forEach((d, i) => {
+      const xpos = pad.l + i * (bw + gap) + gap/2;
+      const bh = (d.spend / max) * ih;
+      const isWeekend = d.day === 'Saturday' || d.day === 'Sunday';
+      svg += `<rect x="${xpos}" y="${pad.t + ih - bh}" width="${bw}" height="${bh}"
+              fill="${isWeekend ? 'var(--accent)' : 'var(--ink)'}"/>`;
+      svg += `<text x="${xpos + bw/2}" y="${pad.t + ih - bh - 6}" text-anchor="middle" font-weight="600" fill="var(--ink)">${fmt$(d.spend)}</text>`;
+      svg += `<text x="${xpos + bw/2}" y="${pad.t + ih + 16}" text-anchor="middle">${d.day.slice(0,3)}</text>`;
+    });
+    const ticks = [0, max*0.5, max];
+    const y = v => pad.t + ih - (v / max) * ih;
+    ticks.forEach(t => {
+      svg += `<line class="gridline" x1="${pad.l}" x2="${pad.l + iw}" y1="${y(t)}" y2="${y(t)}"/>`;
+      svg += `<text x="${pad.l - 8}" y="${y(t) + 4}" text-anchor="end">${fmt$(t)}</text>`;
+    });
+    document.getElementById('chart-weekday').innerHTML =
+      `<svg class="chart" viewBox="0 0 ${w} ${h}" preserveAspectRatio="xMidYMid meet">${svg}</svg>`;
+  })();
+
+  // ===== MoM heatmap =====
+  (() => {
+    const mom = DATA.mom_pct;
+    const months = Object.keys(mom);
+    // Drop the first month (no previous) and compute on top categories only
+    const validMonths = months.slice(1);
+    const allCats = Object.keys(mom[months[0]]);
+    // Top 8 by absolute spend
+    const stacked = DATA.stacked;
+    const totals = stacked.categories.map((c, i) => ({
+      c, total: stacked.values.reduce((s, row) => s + row[i], 0)
+    })).sort((a, b) => b.total - a.total);
+    const showCats = totals.slice(0, 8).map(x => x.c);
+
+    const colorFor = pct => {
+      if (pct === 0 || isNaN(pct)) return 'transparent';
+      const intensity = Math.min(Math.abs(pct) / 50, 1);
+      if (pct > 0) {
+        // red-ish for spending increase
+        const a = 0.1 + intensity * 0.5;
+        return `rgba(184, 72, 46, ${a})`;
+      } else {
+        const a = 0.1 + intensity * 0.5;
+        return `rgba(45, 106, 79, ${a})`;
+      }
+    };
+
+    const monthLabel = m => {
+      const [y, mo] = m.split('-');
+      return ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'][parseInt(mo)-1] + " '" + y.slice(2);
+    };
+
+    let html = '<table class="mom-table">';
+    html += '<thead><tr><th>Category</th>';
+    validMonths.forEach(m => html += `<th>${monthLabel(m)}</th>`);
+    html += '</tr></thead><tbody>';
+    showCats.forEach(cat => {
+      html += `<tr><td>${cat}</td>`;
+      validMonths.forEach(m => {
+        const v = mom[m][cat];
+        const display = (v === 0 || v === undefined || isNaN(v)) ? '—' :
+                        (v > 0 ? '+' : '') + Math.round(v) + '%';
+        html += `<td class="mom-cell" style="background:${colorFor(v)}">${display}</td>`;
+      });
+      html += '</tr>';
+    });
+    html += '</tbody></table>';
+    document.getElementById('mom-heatmap').innerHTML = html;
+  })();
+</script>
+</body>
+</html>
